@@ -15,8 +15,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- biome-ignore lint/a11y/noDistractingElements: sybau -->
     <marquee>
         <p id="news">BREAKING NEWS: LOCAL USER UNABLE TO LOAD JAVASCRIPT?! ATMOSPHERE DEVS ARE PISSED.</p>
+    </marquee>
+    <!-- biome-ignore lint/a11y/noDistractingElements: sybau -->
+    <marquee id="cats">
+        <noscript>
+            <p>You should enable JavaScript... NOW!</p>
+        </noscript>
     </marquee>
 
     <div id="about" class="box">
@@ -32,6 +39,7 @@
             <p>
                 welcome to the atmosphere official website<br>
                 here you can find atmosphere things
+                <p style="font-size: 39%;">and some of seized's cat photos.</p>
             </p>
 
             <div id="links">
@@ -44,3 +52,4 @@
 
     <script src="script.js"></script>
 </body>
+</html>

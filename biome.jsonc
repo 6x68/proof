@@ -1,0 +1,10 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.4.0/schema.json",
+	"formatter": {
+		"indentStyle": "space",
+		"useEditorconfig": true
+	},
+	"vcs": {
+		"useIgnoreFile": true
+	}
+}
